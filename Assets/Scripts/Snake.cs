@@ -7,6 +7,8 @@ public class Snake : MonoBehaviour
 {
     // Tail Prefab
     public GameObject tailPrefab;
+    public GameObject tailFirst;
+    public GameObject end;
     
     // Current Movement Direction
     // (by default it moves to the right)
@@ -23,6 +25,8 @@ public class Snake : MonoBehaviour
     void Start()
     {
         alive = true;
+        tail.Add(tailFirst.transform);
+        end.transform.position = tail.Last().position;
         // Move the Snake every 300ms
         InvokeRepeating("Move", 0.3f, 0.1f);
     }
@@ -62,12 +66,15 @@ public class Snake : MonoBehaviour
         }
         // Do we have a Tail?
         else if (tail.Count > 0) {
+            
             // Move last Tail Element to where the Head was
             tail.Last().position = v;
 
             // Add to front of list, remove from the back
             tail.Insert(0, tail.Last());
             tail.RemoveAt(tail.Count-1);
+
+            end.transform.position = tail.Last().position;
         }
     }
     
@@ -93,6 +100,7 @@ public class Snake : MonoBehaviour
                 
                 // Remove the Food
                 Destroy(coll.gameObject);
+                end.transform.position = tail.Last().position;
             }
             
             // Collided with Tail, Border or Bad Food
