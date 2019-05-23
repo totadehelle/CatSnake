@@ -67,11 +67,11 @@ namespace DefaultNamespace
         void Spawn(GameObject foodPrefab)
         {
             // x position between left & right border
-            int x = (int)Random.Range(borderLeft.position.x+2,
+            int x = (int)Random.Range(borderLeft.position.x,
                 borderRight.position.x);
 
             // y position between top & bottom border
-            int y = (int)Random.Range(borderBottom.position.y+2,
+            int y = (int)Random.Range(borderBottom.position.y,
                 borderTop.position.y);
 
             // Instantiate the food at (x, y)

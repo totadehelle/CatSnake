@@ -57,14 +57,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Board.cs" />
     <Compile Include="Assets\Scripts\DestroyTimer.cs" />
     <Compile Include="Assets\Scripts\EnumsSet.cs" />
     <Compile Include="Assets\Scripts\MeowSound.cs" />
     <Compile Include="Assets\Scripts\MovesCounterScript.cs" />
+    <Compile Include="Assets\Scripts\Ortho2DCamera.cs" />
     <Compile Include="Assets\Scripts\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\ScoreUpdater.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
+    <Compile Include="Assets\Scripts\SettingsUpdater.cs" />
     <Compile Include="Assets\Scripts\Snake.cs" />
     <Compile Include="Assets\Scripts\SpawnFood.cs" />
+    <Compile Include="Assets\Scripts\Statistics.cs" />
+    <Compile Include="Assets\Scripts\StatisticsControl.cs" />
+    <Compile Include="Assets\Scripts\StatsUpdater.cs" />
     <Compile Include="Assets\Scripts\UIManagerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/home/alter/Unity Projects/Longcat snake/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

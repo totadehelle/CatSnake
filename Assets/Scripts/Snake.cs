@@ -9,10 +9,14 @@ public class Snake : MonoBehaviour
     public GameObject tailPrefab;
     public GameObject tailFirst;
     public GameObject end;
+    public ScoreCounter counter;
+    
     
     // Current Movement Direction
     // (by default it moves to the right)
-    Vector2 dir = Vector2.right;
+    Vector2 dir = new Vector2(16,0);
+    //Vector3 dir2 = new Vector3(32,0, 0);
+
     
     // Keep Track of Tail
     List<Transform> tail = new List<Transform>();
@@ -25,10 +29,14 @@ public class Snake : MonoBehaviour
     void Start()
     {
         alive = true;
+        //var w = GetComponent<SpriteRenderer>().sprite.rect.width/transform.localScale.x;
+        //Debug.Log(w);
+        
         tail.Add(tailFirst.transform);
-        end.transform.position = tail.Last().position;
+        end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
+        
         // Move the Snake every 300ms
-        InvokeRepeating("Move", 0.3f, 0.1f);
+        InvokeRepeating("Move", 0.3f, 0.3f);
     }
 
     // Update is called once per frame
@@ -50,11 +58,13 @@ public class Snake : MonoBehaviour
 
         // Move head into new direction (now there is a gap)
         transform.Translate(dir);
-
+        //var newPos = transform.position + Vector3.up*16;
+        //transform.position = newPos;
+        //return;    
         // Ate something? Then insert new Element into gap
         if (ate) {
             // Load Prefab into the world
-            GameObject g =(GameObject)Instantiate(tailPrefab,
+            GameObject g =Instantiate(tailPrefab,
                 v,
                 Quaternion.identity);
 
@@ -74,7 +84,7 @@ public class Snake : MonoBehaviour
             tail.Insert(0, tail.Last());
             tail.RemoveAt(tail.Count-1);
 
-            end.transform.position = tail.Last().position;
+            end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
         }
     }
     
@@ -90,7 +100,7 @@ public class Snake : MonoBehaviour
             {
                 //Shortening the snake by 20%
                 int tailLenght = tail.Count;
-                var lastSection = (int) tailLenght / 5;
+                int lastSection = tailLenght / 5;
                 
                 for (int i = tailLenght-1; tail.Count > tailLenght - lastSection; i--)
                 {
@@ -100,14 +110,32 @@ public class Snake : MonoBehaviour
                 
                 // Remove the Food
                 Destroy(coll.gameObject);
-                end.transform.position = tail.Last().position;
+                end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
             }
             
             // Collided with Tail, Border or Bad Food
         else {
             //Pauses gameplay
             alive = false;
-            Time.timeScale = 0;         
+            Time.timeScale = 0;
+            SaveResults(counter);
         }
+    }
+
+    void SaveResults(ScoreCounter counter)
+    {
+        if (counter.score > StatisticsControl.Instance.savedStats.BestScore)
+        {
+            StatisticsControl.Instance.savedStats.BestScore = counter.score;
+        }
+
+        StatisticsControl.Instance.savedStats.TotalScore += counter.score;
+        
+        if (counter.bonuses > StatisticsControl.Instance.savedStats.BestBonus)
+        {
+            StatisticsControl.Instance.savedStats.BestBonus = counter.bonuses;
+        }
+        
+        StatisticsControl.Instance.savedStats.TotalBonuses += counter.bonuses;
     }
 }

@@ -80,6 +80,23 @@ public class UIManagerScript : MonoBehaviour
     }
     
     //loads inputted level
+    public void SoundControl()
+    {
+        StatisticsControl.Instance.SavedSettings.IsSoundOn = !StatisticsControl.Instance.SavedSettings.IsSoundOn;
+    }
+    public void MusicControl()
+    {
+        StatisticsControl.Instance.SavedSettings.IsMusicOn = !StatisticsControl.Instance.SavedSettings.IsMusicOn;
+    }
+    public void LogInControl()
+    {
+        StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle = !StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle;
+    }
+    public void CreditsControl()
+    {
+        Application.LoadLevel(EnumsSet.Scenes.Credits.ToString());
+    }
+    
     public void LoadLevel(string level){
         Application.LoadLevel(level);
     }
