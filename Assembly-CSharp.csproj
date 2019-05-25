@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Board.cs" />
     <Compile Include="Assets\Scripts\DestroyTimer.cs" />
     <Compile Include="Assets\Scripts\EnumsSet.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Scripts\StatisticsControl.cs" />
     <Compile Include="Assets\Scripts\StatsUpdater.cs" />
     <Compile Include="Assets\Scripts\UIManagerScript.cs" />
+    <Compile Include="Assets\Scripts\Utilities\SceneField.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/home/alter/Unity Projects/Longcat snake/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

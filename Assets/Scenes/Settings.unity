@@ -683,6 +683,7 @@ GameObject:
   - component: {fileID: 662197358}
   - component: {fileID: 662197357}
   - component: {fileID: 662197356}
+  - component: {fileID: 662197359}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -703,7 +704,7 @@ RectTransform:
   m_Children:
   - {fileID: 675848927}
   m_Father: {fileID: 929243840}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -749,18 +750,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 662197357}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 80178632}
-        m_MethodName: LoadLevel
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Credits
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &662197357
@@ -800,6 +790,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662197354}
   m_CullTransparentMesh: 0
+--- !u!114 &662197359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662197354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15625d6a285722b2b8aa1de7bea9787b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene:
+    sceneAsset: {fileID: 102900000, guid: a480b88569de5efb99131c264eeb5472, type: 3}
+    sceneName: Scenes/Credits
 --- !u!1 &675848926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1151,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929243840}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1285,10 +1290,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 662197355}
   - {fileID: 1932396604}
   - {fileID: 923058567}
   - {fileID: 1122073078}
-  - {fileID: 662197355}
   - {fileID: 134578173}
   - {fileID: 1377262699}
   - {fileID: 1813900623}
@@ -1335,7 +1340,7 @@ RectTransform:
   m_Children:
   - {fileID: 721376252}
   m_Father: {fileID: 929243840}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1595,8 +1600,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.4, y: -71.8}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -32.2, y: -71.8}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390570156
 MonoBehaviour:
@@ -1753,7 +1758,7 @@ RectTransform:
   m_Children:
   - {fileID: 620055459}
   m_Father: {fileID: 929243840}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

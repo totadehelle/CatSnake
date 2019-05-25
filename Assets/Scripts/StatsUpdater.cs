@@ -18,10 +18,10 @@ public class StatsUpdater : MonoBehaviour
         totalScore = GameObject.Find("TotalScoreText");
         bestBonus = GameObject.Find("BestBonusText");
         
-        bestScore.GetComponent<Text>().text = "Best Score: " + StatisticsControl.Instance.savedStats.BestScore;
+        bestScore.GetComponent<Text>().text = "Best Score: " + StatisticsControl.Instance.SavedStats.BestScore;
 
-        totalScore.GetComponent<Text>().text = "Total Score: " + StatisticsControl.Instance.savedStats.TotalScore;
+        totalScore.GetComponent<Text>().text = "Total Score: " + StatisticsControl.Instance.SavedStats.TotalScore;
         
-        bestBonus.GetComponent<Text>().text = "Best Bonus: " + StatisticsControl.Instance.savedStats.BestBonus;
+        bestBonus.GetComponent<Text>().text = "Best Bonus: " + StatisticsControl.Instance.SavedStats.BestBonus;
     }
 }

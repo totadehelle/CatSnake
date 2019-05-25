@@ -1173,7 +1173,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935879560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1380575369}
+        m_MethodName: SoundControl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &935879560
@@ -2711,15 +2722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c581e983b7bd218519698a06f836aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BestScore: 0
-  BestBonus: 0
-  TotalScore: 0
-  TotalBonuses: 0
-  IsSoundOn: 1
-  IsMusicOn: 1
-  IsLoggedInWithGoogle: 0
-  Skin: 0
-  FoodSet: 0
 --- !u!4 &2038959024
 Transform:
   m_ObjectHideFlags: 0
@@ -2786,8 +2788,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1955848097
-  m_SortingLayer: 1
+  m_SortingLayerID: 854848481
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fc634c1ec63214bda935c1f7267e6bd5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManagerScript : MonoBehaviour
 {
+    private string prevSceneToLoad = "";
     GameObject[] pauseObjects;
     GameObject[] finishObjects;
     private GameObject[] hideOnFinishObjects;
@@ -82,15 +84,27 @@ public class UIManagerScript : MonoBehaviour
     //loads inputted level
     public void SoundControl()
     {
-        StatisticsControl.Instance.SavedSettings.IsSoundOn = !StatisticsControl.Instance.SavedSettings.IsSoundOn;
+        if (StatisticsControl.Instance.SavedSettings.IsSoundOn == 1)
+        {
+            StatisticsControl.Instance.SavedSettings.IsSoundOn = 0;
+        }
+        else StatisticsControl.Instance.SavedSettings.IsSoundOn = 1;
     }
     public void MusicControl()
     {
-        StatisticsControl.Instance.SavedSettings.IsMusicOn = !StatisticsControl.Instance.SavedSettings.IsMusicOn;
+        if (StatisticsControl.Instance.SavedSettings.IsMusicOn == 1)
+        {
+            StatisticsControl.Instance.SavedSettings.IsMusicOn = 0;
+        }
+        else StatisticsControl.Instance.SavedSettings.IsMusicOn = 1;
     }
     public void LogInControl()
     {
-        StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle = !StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle;
+        if (StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle == 1)
+        {
+            StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle = 0;
+        }
+        else StatisticsControl.Instance.SavedSettings.IsLoggedInWithGoogle = 1;
     }
     public void CreditsControl()
     {
@@ -98,8 +112,18 @@ public class UIManagerScript : MonoBehaviour
     }
     
     public void LoadLevel(string level){
+        if (prevSceneToLoad == "")
+        {
+            prevSceneToLoad = level;
+        }
+        else
+        {
+            Debug.Log(prevSceneToLoad == level);
+        }
+            
+        Debug.Log(">>>>"+level+"<<<<");
         Application.LoadLevel(level);
-    }
+    }    
     
     public void Reload(){
         Application.LoadLevel(Application.loadedLevel);

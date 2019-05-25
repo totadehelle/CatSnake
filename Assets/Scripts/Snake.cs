@@ -124,18 +124,20 @@ public class Snake : MonoBehaviour
 
     void SaveResults(ScoreCounter counter)
     {
-        if (counter.score > StatisticsControl.Instance.savedStats.BestScore)
+        if (counter.score > StatisticsControl.Instance.SavedStats.BestScore)
         {
-            StatisticsControl.Instance.savedStats.BestScore = counter.score;
+            StatisticsControl.Instance.SavedStats.BestScore = counter.score;
         }
 
-        StatisticsControl.Instance.savedStats.TotalScore += counter.score;
+        StatisticsControl.Instance.SavedStats.TotalScore += counter.score;
         
-        if (counter.bonuses > StatisticsControl.Instance.savedStats.BestBonus)
+        if (counter.bonuses > StatisticsControl.Instance.SavedStats.BestBonus)
         {
-            StatisticsControl.Instance.savedStats.BestBonus = counter.bonuses;
+            StatisticsControl.Instance.SavedStats.BestBonus = counter.bonuses;
         }
         
-        StatisticsControl.Instance.savedStats.TotalBonuses += counter.bonuses;
+        StatisticsControl.Instance.SavedStats.TotalBonuses += counter.bonuses;
+        
+        StatisticsControl.Instance.SaveData();
     }
 }
