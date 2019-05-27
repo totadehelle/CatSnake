@@ -5,64 +5,48 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Longcat snake/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Longcat snake/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Longcat snake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Longcat snake/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BadFoodPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BadFoodPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BonusFoodPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BonusFoodPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FoodPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FoodPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TailPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TailPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Profile.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Profile.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Settings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Statistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Statistics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StatisticsControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StatisticsControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StatsUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StatsUpdater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManagerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-b8ddc59897f46fcdfa.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-b8ddc59897f46fcdfa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-f72fde95aa0d90820a.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-f72fde95aa0d90820a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4ca6f1-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/5df026-f72fde95aa0d90820a.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/5df026-f72fde95aa0d90820a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/5df026-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/5df026-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/16/16908d1ebacc3e9a0957d6910ad12696" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/16/16908d1ebacc3e9a0957d6910ad12696" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/1b/1bc598fb327dac129806d875c6d51381" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1b/1bc598fb327dac129806d875c6d51381" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/44/44c50cd897079fc5eb99cee5b81b2597" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/44/44c50cd897079fc5eb99cee5b81b2597" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b8/b8ddc59897f46fcdfafd723c9f7414e3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b8/b8ddc59897f46fcdfafd723c9f7414e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/bd/bd476f40997ce5dc294e82f8f2946f3a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/bd/bd476f40997ce5dc294e82f8f2946f3a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c5/c581e983b7bd218519698a06f836aa15" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c5/c581e983b7bd218519698a06f836aa15" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e100186869fbffe6a84dce7d1061b38f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e100186869fbffe6a84dce7d1061b38f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/ed/ed8ab9a1046f718b8997eb5269a6c924" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/ed8ab9a1046f718b8997eb5269a6c924" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/f7/f72fde95aa0d90820a3d84c26651fe73" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f7/f72fde95aa0d90820a3d84c26651fe73" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/fc/fc485bb073448c170b5c42751e3c0fe4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fc/fc485bb073448c170b5c42751e3c0fe4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f7/f72fde95aa0d90820a3d84c26651fe73.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f7/f72fde95aa0d90820a3d84c26651fe73.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-00a641316bdca243aaf81a0c7f484e40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-251f490713462557398ecfcbd856b2cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2671ac5bd00d4a9fd835250bc5f74b26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2b6a596d286aa8640a8af273a376dbf7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-37cb8b09e26341b829409f9a130bd200" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-38d7bbb526227575c948bab44f88adfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-409ffa6d40f550329abea426c817f60a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-439fbf97e4ab891a5a43c26baceae3e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4f39ebd996b627c3494119b40a266dd5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-79c9fa8e70c70baa584cd6bac15ef7e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-88c7e1dab87a59d75b5d7c7c6296e140" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9794dcf4498562796bf61981acdd86e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a3ffcd2d1a79eb30cb13ee976c69836c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-badd4ee14c00db628ace73c4ad821ed4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bd08447e3d77c180babf9a3e1d831b29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c9b969847257df4709b28dac8f3fe489" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e1fb46803c72fab5dbd15d4c54496db8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f3b03da3d2571ac778d95535814e6f8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1273b3e158c7eea01a2aa446ff5a2d65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-149869cc458a1c1baab7ea37c0d6aa24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1f88d6335e165ccfa8dc6a9efb9a08b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-233844e8aa7f7220f9936608717c93b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2553b41b381225a11afea5ff11bef9be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2975ef5b620c05b28a9cd7d49b670cca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2d590a562e6ac85c5bd3838936a655be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-42efdb4626ab43111807d8234937717d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4bcbd2201986254929cbef4679e4b8d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-57fc03f788b37ae2ea52e977d8dce570" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-592b6930d55d34883920a40a8a2b994b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-62ed80c9d1041b0d98ece096deb415e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9c5222649364997b880d9176e73e57b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dca78b780b620008c9e668a1ef7f5328" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e899c227ab16d3573af50b4e49a4803a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f085fed248f4a0221acb924ee81e1c2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManagerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="1365">
               <caret line="106" column="79" selection-start-line="106" selection-start-column="79" selection-end-line="106" selection-end-column="79" />
               <folding>
                 <marker date="1558777246843" expanded="false" signature="6:113" ph="..." />
@@ -113,43 +97,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SceneLoader.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <marker date="1558643962646" expanded="false" signature="6:152" ph="..." />
-                <marker date="1558643962646" expanded="true" signature="194:592" ph="{...}" />
-                <marker date="1558643962646" expanded="true" signature="348:440" ph="{...}" />
-                <marker date="1558643962646" expanded="true" signature="460:511" ph="{...}" />
-                <marker date="1558643962646" expanded="true" signature="569:590" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/SceneField.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="6" selection-start-line="29" selection-start-column="48" selection-end-line="30" selection-end-column="6" />
-              <folding>
-                <marker date="1558643664448" expanded="false" signature="6:107" ph="..." />
-                <marker date="1558643664448" expanded="true" signature="138:2243" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="197:634" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="349:410" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="563:627" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="762:2232" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="867:2225" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="1246:2176" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="1479:2161" ph="{...}" />
-                <marker date="1558643664448" expanded="true" signature="1626:2142" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSet.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -167,29 +114,249 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Snake.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
-                <marker date="1558780458409" expanded="false" signature="6:97" ph="..." />
-                <marker date="1558780458409" expanded="true" signature="133:4335" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="296:367" ph="/* Current Movement Direction ... */" />
-                <marker date="1558780458409" expanded="true" signature="655:1046" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="692:798" ph="/* var w = GetComponent&lt;SpriteRenderer&gt;().sprite.rect.width/transform.localScale.x; ... */" />
-                <marker date="1558780458409" expanded="true" signature="1104:1336" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="1151:1217" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="1263:1330" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="1358:2491" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="1556:1726" ph="/* var newPos = transform.position + Vector3.up*16; ... */" />
-                <marker date="1558780458409" expanded="true" signature="1744:2051" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="2115:2485" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="2540:3696" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="2632:2780" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="2875:3475" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="3134:3257" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="3542:3690" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="3740:4333" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="3823:3920" ph="{...}" />
-                <marker date="1558780458409" expanded="true" signature="4084:4183" ph="{...}" />
+                <marker date="1558991916248" expanded="false" signature="6:111" ph="..." />
+                <marker date="1558991916248" expanded="true" signature="166:4731" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="334:406" ph="/* Current Movement Direction ... */" />
+                <marker date="1558991916248" expanded="true" signature="743:1064" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="982:1058" ph="/* Move the Snake every 300ms ... */" />
+                <marker date="1558991916248" expanded="true" signature="1122:1584" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="1169:1337" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="1383:1553" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="1605:2887" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="1910:2217" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="2280:2881" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="2372:2439" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="2465:2764" ph="/* Move last Tail Element to where the Head was ... */" />
+                <marker date="1558991916248" expanded="true" signature="2936:4092" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="3028:3176" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="3271:3871" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="3530:3653" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="3938:4086" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="4136:4729" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="4219:4316" ph="{...}" />
+                <marker date="1558991916248" expanded="true" signature="4480:4579" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tween/Tween.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1558810246223" expanded="true" signature="0:1137" ph="/* The MIT License (MIT) ... */" />
+                <marker date="1558810246223" expanded="false" signature="1204:1265" ph="..." />
+                <marker date="1558810246223" expanded="true" signature="1294:38948" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="1301:1367" ph="/// State of an ITween object ... " />
+                <marker date="1558810246223" expanded="true" signature="1394:1693" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="1409:1479" ph="/// The tween is running. ... " />
+                <marker date="1558810246223" expanded="true" signature="1506:1575" ph="/// The tween is paused. ... " />
+                <marker date="1558810246223" expanded="true" signature="1601:1671" ph="/// The tween is stopped. ... " />
+                <marker date="1558810246223" expanded="true" signature="1699:1791" ph="/// The behavior to use when manually stopping a tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="1825:2084" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="1840:1923" ph="/// Does not change the current value. ... " />
+                <marker date="1558810246223" expanded="true" signature="1954:2061" ph="/// Causes the tween to progress to the end value immediately. ... " />
+                <marker date="1558810246223" expanded="true" signature="2090:2234" ph="/// Tween manager - do not add directly as a script, instead call the static methods in your other scripts. ... " />
+                <marker date="1558810246223" expanded="true" signature="2280:12123" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="2490:3232" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="2555:3222" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="2708:3073" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="2764:2850" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3116:3208" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3262:3519" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3400:3509" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3647:3767" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3697:3757" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3798:4116" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="3887:4106" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="4016:4092" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="4126:4632" ph="/// Start and add a float tween ... " />
+                <marker date="1558810246223" expanded="true" signature="4840:5077" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="5087:5597" ph="/// Start and add a Vector2 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="5815:6056" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="6066:6576" ph="/// Start and add a Vector3 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="6794:7035" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="7045:7555" ph="/// Start and add a Vector4 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="7773:8014" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="8024:8488" ph="/// Start and add a Color tween ... " />
+                <marker date="1558810246223" expanded="true" signature="8696:8933" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="8943:9417" ph="/// Start and add a Quaternion tween ... " />
+                <marker date="1558810246223" expanded="true" signature="9650:9897" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="9907:10020" ph="/// Add a tween ... " />
+                <marker date="1558810246223" expanded="true" signature="10070:10276" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="10144:10235" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="10286:10527" ph="/// Remove a tween ... " />
+                <marker date="1558810246223" expanded="true" signature="10612:10711" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="10721:10965" ph="/// Remove a tween by key ... " />
+                <marker date="1558810246223" expanded="true" signature="11051:11539" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="11090:11148" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="11240:11500" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="11331:11486" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="11549:11614" ph="/// Clear all tweens ... " />
+                <marker date="1558810246223" expanded="true" signature="11649:11697" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="11707:11837" ph="/// Stop behavior if you add a tween with a key and tweens already exist with the key ... " />
+                <marker date="1558810246223" expanded="true" signature="11953:12057" ph="/// Whether to clear tweens on level load, default is false ... " />
+                <marker date="1558810246223" expanded="true" signature="12143:12234" ph="/// Extensions for tween for game objects - unity only ... " />
+                <marker date="1558810246223" expanded="true" signature="12284:18485" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="12299:12855" ph="/// Start and add a float tween ... " />
+                <marker date="1558810246223" expanded="true" signature="13084:13320" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="13330:13890" ph="/// Start and add a Vector2 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="14129:14367" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="14377:14937" ph="/// Start and add a Vector3 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="15176:15414" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="15424:15984" ph="/// Start and add a Vector4 tween ... " />
+                <marker date="1558810246223" expanded="true" signature="16223:16461" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="16471:16985" ph="/// Start and add a Color tween ... " />
+                <marker date="1558810246223" expanded="true" signature="17214:17450" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="17460:17984" ph="/// Start and add a Quaternion tween ... " />
+                <marker date="1558810246223" expanded="true" signature="18238:18479" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="18499:18569" ph="/// Interface for a tween object. ... " />
+                <marker date="1558810246223" expanded="true" signature="18597:19646" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="18612:18709" ph="/// The key that identifies this tween - can be null ... " />
+                <marker date="1558810246223" expanded="true" signature="18747:18832" ph="/// Gets the current state of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="18876:18941" ph="/// Start the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="18973:19039" ph="/// Pauses the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="19071:19145" ph="/// Resumes the paused tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="19178:19330" ph="/// Stops the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="19391:19600" ph="/// Updates the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="19652:19810" ph="/// Interface for a tween object that handles a specific type. ... " />
+                <marker date="1558810246223" expanded="true" signature="19867:20792" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="19882:19967" ph="/// Gets the current value of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="20009:20097" ph="/// Gets the current progress of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="20146:20621" ph="/// Initialize a tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="20798:20934" ph="/// An implementation of a tween object. ... " />
+                <marker date="1558810246223" expanded="true" signature="20989:29826" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="21452:21549" ph="/// The key that identifies this tween - can be null ... " />
+                <marker date="1558810246223" expanded="true" signature="21599:21683" ph="/// Gets the current time of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="21758:21838" ph="/// Gets the duration of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="21907:21987" ph="/// Delay before starting the tween ... " />
+                <marker date="1558810246223" expanded="true" signature="22038:22123" ph="/// Gets the current state of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="22191:22277" ph="/// Gets the starting value of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="22341:22425" ph="/// Gets the ending value of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="22485:22570" ph="/// Gets the current value of the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="22650:22729" ph="/// The game object - null if none ... " />
+                <marker date="1558810246223" expanded="true" signature="22790:22866" ph="/// The renderer - null if none ... " />
+                <marker date="1558810246223" expanded="true" signature="22923:23068" ph="/// Whether to force update even if renderer is null or not visible or deactivated, default is false ... " />
+                <marker date="1558810246223" expanded="true" signature="23132:23228" ph="/// Gets the current progress of the tween (0 - 1). ... " />
+                <marker date="1558810246223" expanded="true" signature="23297:23697" ph="/// Initializes a new Tween with a given lerp function. ... " />
+                <marker date="1558810246223" expanded="true" signature="23760:23858" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="23868:24343" ph="/// Initialize a tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="24514:24890" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="24900:24992" ph="/// Starts a tween. Setup must be called first. ... " />
+                <marker date="1558810246223" expanded="true" signature="25020:25673" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25075:25663" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25144:25573" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25289:25381" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25433:25527" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25683:25749" ph="/// Pauses the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="25777:25913" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25832:25903" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="25923:25997" ph="/// Resumes the paused tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="26026:26162" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26080:26152" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26172:26324" ph="/// Stops the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="26381:27143" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26436:27133" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26558:27119" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26707:26859" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="26905:27101" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="27153:27362" ph="/// Updates the tween. ... " />
+                <marker date="1558810246223" expanded="true" signature="27408:28476" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="27463:28416" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="27511:28002" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="27623:27754" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="27779:27984" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="28023:28107" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="28153:28276" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="28297:28402" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="28486:28836" ph="/// Set another tween to execute when this tween finishes. Inherits the Key and if using Unity, GameObject, Rende ... " />
+                <marker date="1558810246223" expanded="true" signature="28941:29201" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="29211:29347" ph="/// Helper that uses the current time, duration, and delegates to update the current value. ... " />
+                <marker date="1558810246223" expanded="true" signature="29382:29820" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="29478:29801" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="29685:29772" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="29832:29907" ph="/// Object used to tween float values. ... " />
+                <marker date="1558810246223" expanded="true" signature="29950:30351" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="30209:30296" ph="/// Initializes a new FloatTween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="30357:30434" ph="/// Object used to tween Vector2 values. ... " />
+                <marker date="1558810246223" expanded="true" signature="30481:30908" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="30762:30851" ph="/// Initializes a new Vector2Tween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="30914:30991" ph="/// Object used to tween Vector3 values. ... " />
+                <marker date="1558810246223" expanded="true" signature="31038:31465" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="31319:31408" ph="/// Initializes a new Vector3Tween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="31471:31548" ph="/// Object used to tween Vector4 values. ... " />
+                <marker date="1558810246223" expanded="true" signature="31595:32022" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="31876:31965" ph="/// Initializes a new Vector4Tween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="32028:32103" ph="/// Object used to tween Color values. ... " />
+                <marker date="1558810246223" expanded="true" signature="32146:32547" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="32405:32492" ph="/// Initializes a new ColorTween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="32553:32633" ph="/// Object used to tween Quaternion values. ... " />
+                <marker date="1558810246223" expanded="true" signature="32686:33152" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="33000:33092" ph="/// Initializes a new QuaternionTween instance. ... " />
+                <marker date="1558810246223" expanded="true" signature="33158:33379" ph="/// &lt;summary&gt; ... " />
+                <marker date="1558810246223" expanded="true" signature="33423:38946" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="33493:33575" ph="/// A linear progress scale function. ... " />
+                <marker date="1558810246223" expanded="true" signature="33725:33830" ph="/// A quadratic (x^2) progress scale function that eases in. ... " />
+                <marker date="1558810246223" expanded="true" signature="34023:34129" ph="/// A quadratic (x^2) progress scale function that eases out. ... " />
+                <marker date="1558810246223" expanded="true" signature="34326:34439" ph="/// A quadratic (x^2) progress scale function that eases in and out. ... " />
+                <marker date="1558810246223" expanded="true" signature="34644:34745" ph="/// A cubic (x^3) progress scale function that eases in. ... " />
+                <marker date="1558810246223" expanded="true" signature="34926:35028" ph="/// A cubic (x^3) progress scale function that eases out. ... " />
+                <marker date="1558810246223" expanded="true" signature="35213:35322" ph="/// A cubic (x^3) progress scale function that eases in and out. ... " />
+                <marker date="1558810246223" expanded="true" signature="35515:35618" ph="/// A quartic (x^4) progress scale function that eases in. ... " />
+                <marker date="1558810246223" expanded="true" signature="35805:35909" ph="/// A quartic (x^4) progress scale function that eases out. ... " />
+                <marker date="1558810246223" expanded="true" signature="36100:36211" ph="/// A quartic (x^4) progress scale function that eases in and out. ... " />
+                <marker date="1558810246223" expanded="true" signature="36410:36513" ph="/// A quintic (x^5) progress scale function that eases in. ... " />
+                <marker date="1558810246223" expanded="true" signature="36700:36804" ph="/// A quintic (x^5) progress scale function that eases out. ... " />
+                <marker date="1558810246223" expanded="true" signature="36995:37106" ph="/// A quintic (x^5) progress scale function that eases in and out. ... " />
+                <marker date="1558810246223" expanded="true" signature="37305:37399" ph="/// A sine progress scale function that eases in. ... " />
+                <marker date="1558810246223" expanded="true" signature="37594:37689" ph="/// A sine progress scale function that eases out. ... " />
+                <marker date="1558810246223" expanded="true" signature="37874:37976" ph="/// A sine progress scale function that eases in and out. ... " />
+                <marker date="1558810246223" expanded="true" signature="38247:38314" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="38384:38521" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="38593:38940" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="38663:38749" ph="{...}" />
+                <marker date="1558810246223" expanded="true" signature="38766:38930" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tween/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tween/Demo/TweenDemo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1558810246213" expanded="true" signature="0:1137" ph="/* The MIT License (MIT) ... */" />
+                <marker date="1558810246213" expanded="false" signature="1145:1305" ph="..." />
+                <marker date="1558810246213" expanded="true" signature="1334:4635" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="1379:4633" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="1529:2717" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="1607:1706" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="1780:1860" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="2752:3227" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="2824:2907" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="3263:3915" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="3336:3589" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="3950:4031" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4061:4149" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4180:4627" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4240:4297" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4347:4405" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4455:4514" ph="{...}" />
+                <marker date="1558810246213" expanded="true" signature="4559:4617" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,7 +365,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="165">
               <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <marker date="1558624105065" expanded="true" signature="61:608" ph="{...}" />
@@ -214,17 +381,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/StatisticsControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
+            <state relative-caret-position="1185">
               <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
               <folding>
-                <marker date="1558782936664" expanded="true" signature="6:170" ph="..." />
+                <marker date="1558782936664" expanded="false" signature="6:170" ph="..." />
                 <marker date="1558782936664" expanded="true" signature="218:3641" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="365:714" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="401:598" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="633:687" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="742:1304" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="1332:3638" ph="{...}" />
-                <marker date="1558782936664" expanded="true" signature="1347:2326" ph="SETTINGS" />
+                <marker date="1558782936664" expanded="false" signature="1347:2326" ph="SETTINGS" />
                 <marker date="1558782936664" expanded="true" signature="1406:1553" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="1566:1662" ph="{...}" />
                 <marker date="1558782936664" expanded="true" signature="1713:1860" ph="{...}" />
@@ -248,7 +415,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Statistics.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="105">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <marker date="1558780458466" expanded="false" signature="6:92" ph="..." />
@@ -261,10 +428,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Settings.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
-                <marker date="1558781947918" expanded="false" signature="6:115" ph="..." />
+                <marker date="1558781947918" expanded="true" signature="6:115" ph="..." />
                 <marker date="1558781947918" expanded="true" signature="138:710" ph="{...}" />
                 <marker date="1558781947918" expanded="true" signature="162:189" ph="{...}" />
                 <marker date="1558781947918" expanded="true" signature="215:242" ph="{...}" />
@@ -293,9 +460,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Statistics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tween/Tween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Board.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8D6859C0-C32D-4F63-98B8-394916B0D0A3/a5/cf63ed7e/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeowSound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tween/Demo/TweenDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnFood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Snake.cs" root0="FORCE_HIGHLIGHTING" />
@@ -332,9 +501,9 @@
         <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManagerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Statistics.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StatisticsControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
       </list>
     </option>
   </component>
@@ -344,8 +513,8 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="225" />
-    <option name="y" value="175" />
+    <option name="x" value="-49" />
+    <option name="y" value="151" />
     <option name="width" value="1411" />
     <option name="height" value="1065" />
   </component>
@@ -355,8 +524,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -377,6 +544,8 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,12 +613,13 @@
       <workItem from="1558453249129" duration="5002000" />
       <workItem from="1558532440693" duration="15557000" />
       <workItem from="1558709348055" duration="1929000" />
-      <workItem from="1558776989552" duration="7249000" />
+      <workItem from="1558776989552" duration="12721000" />
+      <workItem from="1558985376127" duration="4986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92613000" />
+    <option name="totallyTimeSpent" value="103071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,9 +631,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="175" width="1411" height="1065" extended-state="0" />
+    <frame x="-49" y="151" width="1411" height="1065" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17044623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17044623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -472,7 +642,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39809927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18796198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -539,19 +709,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Snake.cs</url>
-          <line>90</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" initialLine="90">
-            <startOffsets>
-              <option value="2540" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2541" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -713,22 +870,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <marker date="1558023301131" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558023301131" expanded="true" signature="108:406" ph="{...}" />
-            <marker date="1558023301131" expanded="true" signature="131:275" ph="{...}" />
-            <marker date="1558023301131" expanded="true" signature="303:404" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManagerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="1365">
           <caret line="106" column="79" selection-start-line="106" selection-start-column="79" selection-end-line="106" selection-end-column="79" />
           <folding>
             <marker date="1558777246843" expanded="false" signature="6:113" ph="..." />
@@ -764,46 +908,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Settings.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSet.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
-            <marker date="1558781947918" expanded="false" signature="6:115" ph="..." />
-            <marker date="1558781947918" expanded="true" signature="138:710" ph="{...}" />
-            <marker date="1558781947918" expanded="true" signature="162:189" ph="{...}" />
-            <marker date="1558781947918" expanded="true" signature="215:242" ph="{...}" />
-            <marker date="1558781947918" expanded="true" signature="268:559" ph="{...}" />
-            <marker date="1558781947918" expanded="true" signature="287:421" ph="{...}" />
-            <marker date="1558781947918" expanded="true" signature="434:553" ph="{...}" />
+            <marker date="1558023301131" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558023301131" expanded="true" signature="108:406" ph="{...}" />
+            <marker date="1558023301131" expanded="true" signature="131:275" ph="{...}" />
+            <marker date="1558023301131" expanded="true" signature="303:404" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Statistics.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Tween/Tween.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state>
           <folding>
-            <marker date="1558780458466" expanded="false" signature="6:92" ph="..." />
-            <marker date="1558780458466" expanded="true" signature="118:230" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="0:1137" ph="/* The MIT License (MIT) ... */" />
+            <marker date="1558810246223" expanded="false" signature="1204:1265" ph="..." />
+            <marker date="1558810246223" expanded="true" signature="1294:38948" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="1301:1367" ph="/// State of an ITween object ... " />
+            <marker date="1558810246223" expanded="true" signature="1394:1693" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="1409:1479" ph="/// The tween is running. ... " />
+            <marker date="1558810246223" expanded="true" signature="1506:1575" ph="/// The tween is paused. ... " />
+            <marker date="1558810246223" expanded="true" signature="1601:1671" ph="/// The tween is stopped. ... " />
+            <marker date="1558810246223" expanded="true" signature="1699:1791" ph="/// The behavior to use when manually stopping a tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="1825:2084" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="1840:1923" ph="/// Does not change the current value. ... " />
+            <marker date="1558810246223" expanded="true" signature="1954:2061" ph="/// Causes the tween to progress to the end value immediately. ... " />
+            <marker date="1558810246223" expanded="true" signature="2090:2234" ph="/// Tween manager - do not add directly as a script, instead call the static methods in your other scripts. ... " />
+            <marker date="1558810246223" expanded="true" signature="2280:12123" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="2490:3232" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="2555:3222" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="2708:3073" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="2764:2850" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3116:3208" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3262:3519" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3400:3509" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3647:3767" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3697:3757" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3798:4116" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="3887:4106" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="4016:4092" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="4126:4632" ph="/// Start and add a float tween ... " />
+            <marker date="1558810246223" expanded="true" signature="4840:5077" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="5087:5597" ph="/// Start and add a Vector2 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="5815:6056" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="6066:6576" ph="/// Start and add a Vector3 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="6794:7035" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="7045:7555" ph="/// Start and add a Vector4 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="7773:8014" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="8024:8488" ph="/// Start and add a Color tween ... " />
+            <marker date="1558810246223" expanded="true" signature="8696:8933" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="8943:9417" ph="/// Start and add a Quaternion tween ... " />
+            <marker date="1558810246223" expanded="true" signature="9650:9897" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="9907:10020" ph="/// Add a tween ... " />
+            <marker date="1558810246223" expanded="true" signature="10070:10276" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="10144:10235" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="10286:10527" ph="/// Remove a tween ... " />
+            <marker date="1558810246223" expanded="true" signature="10612:10711" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="10721:10965" ph="/// Remove a tween by key ... " />
+            <marker date="1558810246223" expanded="true" signature="11051:11539" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="11090:11148" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="11240:11500" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="11331:11486" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="11549:11614" ph="/// Clear all tweens ... " />
+            <marker date="1558810246223" expanded="true" signature="11649:11697" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="11707:11837" ph="/// Stop behavior if you add a tween with a key and tweens already exist with the key ... " />
+            <marker date="1558810246223" expanded="true" signature="11953:12057" ph="/// Whether to clear tweens on level load, default is false ... " />
+            <marker date="1558810246223" expanded="true" signature="12143:12234" ph="/// Extensions for tween for game objects - unity only ... " />
+            <marker date="1558810246223" expanded="true" signature="12284:18485" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="12299:12855" ph="/// Start and add a float tween ... " />
+            <marker date="1558810246223" expanded="true" signature="13084:13320" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="13330:13890" ph="/// Start and add a Vector2 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="14129:14367" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="14377:14937" ph="/// Start and add a Vector3 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="15176:15414" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="15424:15984" ph="/// Start and add a Vector4 tween ... " />
+            <marker date="1558810246223" expanded="true" signature="16223:16461" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="16471:16985" ph="/// Start and add a Color tween ... " />
+            <marker date="1558810246223" expanded="true" signature="17214:17450" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="17460:17984" ph="/// Start and add a Quaternion tween ... " />
+            <marker date="1558810246223" expanded="true" signature="18238:18479" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="18499:18569" ph="/// Interface for a tween object. ... " />
+            <marker date="1558810246223" expanded="true" signature="18597:19646" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="18612:18709" ph="/// The key that identifies this tween - can be null ... " />
+            <marker date="1558810246223" expanded="true" signature="18747:18832" ph="/// Gets the current state of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="18876:18941" ph="/// Start the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="18973:19039" ph="/// Pauses the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="19071:19145" ph="/// Resumes the paused tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="19178:19330" ph="/// Stops the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="19391:19600" ph="/// Updates the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="19652:19810" ph="/// Interface for a tween object that handles a specific type. ... " />
+            <marker date="1558810246223" expanded="true" signature="19867:20792" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="19882:19967" ph="/// Gets the current value of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="20009:20097" ph="/// Gets the current progress of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="20146:20621" ph="/// Initialize a tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="20798:20934" ph="/// An implementation of a tween object. ... " />
+            <marker date="1558810246223" expanded="true" signature="20989:29826" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="21452:21549" ph="/// The key that identifies this tween - can be null ... " />
+            <marker date="1558810246223" expanded="true" signature="21599:21683" ph="/// Gets the current time of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="21758:21838" ph="/// Gets the duration of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="21907:21987" ph="/// Delay before starting the tween ... " />
+            <marker date="1558810246223" expanded="true" signature="22038:22123" ph="/// Gets the current state of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="22191:22277" ph="/// Gets the starting value of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="22341:22425" ph="/// Gets the ending value of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="22485:22570" ph="/// Gets the current value of the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="22650:22729" ph="/// The game object - null if none ... " />
+            <marker date="1558810246223" expanded="true" signature="22790:22866" ph="/// The renderer - null if none ... " />
+            <marker date="1558810246223" expanded="true" signature="22923:23068" ph="/// Whether to force update even if renderer is null or not visible or deactivated, default is false ... " />
+            <marker date="1558810246223" expanded="true" signature="23132:23228" ph="/// Gets the current progress of the tween (0 - 1). ... " />
+            <marker date="1558810246223" expanded="true" signature="23297:23697" ph="/// Initializes a new Tween with a given lerp function. ... " />
+            <marker date="1558810246223" expanded="true" signature="23760:23858" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="23868:24343" ph="/// Initialize a tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="24514:24890" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="24900:24992" ph="/// Starts a tween. Setup must be called first. ... " />
+            <marker date="1558810246223" expanded="true" signature="25020:25673" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25075:25663" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25144:25573" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25289:25381" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25433:25527" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25683:25749" ph="/// Pauses the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="25777:25913" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25832:25903" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="25923:25997" ph="/// Resumes the paused tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="26026:26162" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26080:26152" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26172:26324" ph="/// Stops the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="26381:27143" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26436:27133" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26558:27119" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26707:26859" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="26905:27101" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="27153:27362" ph="/// Updates the tween. ... " />
+            <marker date="1558810246223" expanded="true" signature="27408:28476" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="27463:28416" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="27511:28002" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="27623:27754" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="27779:27984" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="28023:28107" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="28153:28276" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="28297:28402" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="28486:28836" ph="/// Set another tween to execute when this tween finishes. Inherits the Key and if using Unity, GameObject, Rende ... " />
+            <marker date="1558810246223" expanded="true" signature="28941:29201" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="29211:29347" ph="/// Helper that uses the current time, duration, and delegates to update the current value. ... " />
+            <marker date="1558810246223" expanded="true" signature="29382:29820" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="29478:29801" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="29685:29772" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="29832:29907" ph="/// Object used to tween float values. ... " />
+            <marker date="1558810246223" expanded="true" signature="29950:30351" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="30209:30296" ph="/// Initializes a new FloatTween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="30357:30434" ph="/// Object used to tween Vector2 values. ... " />
+            <marker date="1558810246223" expanded="true" signature="30481:30908" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="30762:30851" ph="/// Initializes a new Vector2Tween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="30914:30991" ph="/// Object used to tween Vector3 values. ... " />
+            <marker date="1558810246223" expanded="true" signature="31038:31465" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="31319:31408" ph="/// Initializes a new Vector3Tween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="31471:31548" ph="/// Object used to tween Vector4 values. ... " />
+            <marker date="1558810246223" expanded="true" signature="31595:32022" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="31876:31965" ph="/// Initializes a new Vector4Tween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="32028:32103" ph="/// Object used to tween Color values. ... " />
+            <marker date="1558810246223" expanded="true" signature="32146:32547" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="32405:32492" ph="/// Initializes a new ColorTween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="32553:32633" ph="/// Object used to tween Quaternion values. ... " />
+            <marker date="1558810246223" expanded="true" signature="32686:33152" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="33000:33092" ph="/// Initializes a new QuaternionTween instance. ... " />
+            <marker date="1558810246223" expanded="true" signature="33158:33379" ph="/// &lt;summary&gt; ... " />
+            <marker date="1558810246223" expanded="true" signature="33423:38946" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="33493:33575" ph="/// A linear progress scale function. ... " />
+            <marker date="1558810246223" expanded="true" signature="33725:33830" ph="/// A quadratic (x^2) progress scale function that eases in. ... " />
+            <marker date="1558810246223" expanded="true" signature="34023:34129" ph="/// A quadratic (x^2) progress scale function that eases out. ... " />
+            <marker date="1558810246223" expanded="true" signature="34326:34439" ph="/// A quadratic (x^2) progress scale function that eases in and out. ... " />
+            <marker date="1558810246223" expanded="true" signature="34644:34745" ph="/// A cubic (x^3) progress scale function that eases in. ... " />
+            <marker date="1558810246223" expanded="true" signature="34926:35028" ph="/// A cubic (x^3) progress scale function that eases out. ... " />
+            <marker date="1558810246223" expanded="true" signature="35213:35322" ph="/// A cubic (x^3) progress scale function that eases in and out. ... " />
+            <marker date="1558810246223" expanded="true" signature="35515:35618" ph="/// A quartic (x^4) progress scale function that eases in. ... " />
+            <marker date="1558810246223" expanded="true" signature="35805:35909" ph="/// A quartic (x^4) progress scale function that eases out. ... " />
+            <marker date="1558810246223" expanded="true" signature="36100:36211" ph="/// A quartic (x^4) progress scale function that eases in and out. ... " />
+            <marker date="1558810246223" expanded="true" signature="36410:36513" ph="/// A quintic (x^5) progress scale function that eases in. ... " />
+            <marker date="1558810246223" expanded="true" signature="36700:36804" ph="/// A quintic (x^5) progress scale function that eases out. ... " />
+            <marker date="1558810246223" expanded="true" signature="36995:37106" ph="/// A quintic (x^5) progress scale function that eases in and out. ... " />
+            <marker date="1558810246223" expanded="true" signature="37305:37399" ph="/// A sine progress scale function that eases in. ... " />
+            <marker date="1558810246223" expanded="true" signature="37594:37689" ph="/// A sine progress scale function that eases out. ... " />
+            <marker date="1558810246223" expanded="true" signature="37874:37976" ph="/// A sine progress scale function that eases in and out. ... " />
+            <marker date="1558810246223" expanded="true" signature="38247:38314" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="38384:38521" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="38593:38940" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="38663:38749" ph="{...}" />
+            <marker date="1558810246223" expanded="true" signature="38766:38930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tween/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1558624105065" expanded="true" signature="61:608" ph="{...}" />
+            <marker date="1558624105065" expanded="true" signature="164:211" ph="{...}" />
+            <marker date="1558624105065" expanded="true" signature="292:606" ph="{...}" />
+            <marker date="1558624105065" expanded="true" signature="397:459" ph="{...}" />
+            <marker date="1558624105065" expanded="true" signature="532:600" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/StatisticsControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
+        <state relative-caret-position="1185">
           <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
           <folding>
-            <marker date="1558782936664" expanded="true" signature="6:170" ph="..." />
+            <marker date="1558782936664" expanded="false" signature="6:170" ph="..." />
             <marker date="1558782936664" expanded="true" signature="218:3641" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="365:714" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="401:598" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="633:687" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="742:1304" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="1332:3638" ph="{...}" />
-            <marker date="1558782936664" expanded="true" signature="1347:2326" ph="SETTINGS" />
+            <marker date="1558782936664" expanded="false" signature="1347:2326" ph="SETTINGS" />
             <marker date="1558782936664" expanded="true" signature="1406:1553" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="1566:1662" ph="{...}" />
             <marker date="1558782936664" expanded="true" signature="1713:1860" ph="{...}" />
@@ -823,45 +1154,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScoreCounter.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Statistics.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <marker date="1558624105065" expanded="true" signature="61:608" ph="{...}" />
-            <marker date="1558624105065" expanded="true" signature="164:211" ph="{...}" />
-            <marker date="1558624105065" expanded="true" signature="292:606" ph="{...}" />
-            <marker date="1558624105065" expanded="true" signature="397:459" ph="{...}" />
-            <marker date="1558624105065" expanded="true" signature="532:600" ph="{...}" />
+            <marker date="1558780458466" expanded="false" signature="6:92" ph="..." />
+            <marker date="1558780458466" expanded="true" signature="118:230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1558781947918" expanded="true" signature="6:115" ph="..." />
+            <marker date="1558781947918" expanded="true" signature="138:710" ph="{...}" />
+            <marker date="1558781947918" expanded="true" signature="162:189" ph="{...}" />
+            <marker date="1558781947918" expanded="true" signature="215:242" ph="{...}" />
+            <marker date="1558781947918" expanded="true" signature="268:559" ph="{...}" />
+            <marker date="1558781947918" expanded="true" signature="287:421" ph="{...}" />
+            <marker date="1558781947918" expanded="true" signature="434:553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tween/Demo/TweenDemo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558810246213" expanded="true" signature="0:1137" ph="/* The MIT License (MIT) ... */" />
+            <marker date="1558810246213" expanded="false" signature="1145:1305" ph="..." />
+            <marker date="1558810246213" expanded="true" signature="1334:4635" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="1379:4633" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="1529:2717" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="1607:1706" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="1780:1860" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="2752:3227" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="2824:2907" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="3263:3915" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="3336:3589" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="3950:4031" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4061:4149" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4180:4627" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4240:4297" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4347:4405" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4455:4514" ph="{...}" />
+            <marker date="1558810246213" expanded="true" signature="4559:4617" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Snake.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
-            <marker date="1558780458409" expanded="false" signature="6:97" ph="..." />
-            <marker date="1558780458409" expanded="true" signature="133:4335" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="296:367" ph="/* Current Movement Direction ... */" />
-            <marker date="1558780458409" expanded="true" signature="655:1046" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="692:798" ph="/* var w = GetComponent&lt;SpriteRenderer&gt;().sprite.rect.width/transform.localScale.x; ... */" />
-            <marker date="1558780458409" expanded="true" signature="1104:1336" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="1151:1217" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="1263:1330" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="1358:2491" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="1556:1726" ph="/* var newPos = transform.position + Vector3.up*16; ... */" />
-            <marker date="1558780458409" expanded="true" signature="1744:2051" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="2115:2485" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="2540:3696" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="2632:2780" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="2875:3475" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="3134:3257" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="3542:3690" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="3740:4333" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="3823:3920" ph="{...}" />
-            <marker date="1558780458409" expanded="true" signature="4084:4183" ph="{...}" />
+            <marker date="1558991916248" expanded="false" signature="6:111" ph="..." />
+            <marker date="1558991916248" expanded="true" signature="166:4731" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="334:406" ph="/* Current Movement Direction ... */" />
+            <marker date="1558991916248" expanded="true" signature="743:1064" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="982:1058" ph="/* Move the Snake every 300ms ... */" />
+            <marker date="1558991916248" expanded="true" signature="1122:1584" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="1169:1337" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="1383:1553" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="1605:2887" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="1910:2217" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="2280:2881" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="2372:2439" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="2465:2764" ph="/* Move last Tail Element to where the Head was ... */" />
+            <marker date="1558991916248" expanded="true" signature="2936:4092" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="3028:3176" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="3271:3871" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="3530:3653" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="3938:4086" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="4136:4729" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="4219:4316" ph="{...}" />
+            <marker date="1558991916248" expanded="true" signature="4480:4579" ph="{...}" />
           </folding>
         </state>
       </provider>

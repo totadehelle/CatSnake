@@ -75,6 +75,9 @@
     <Compile Include="Assets\Scripts\StatsUpdater.cs" />
     <Compile Include="Assets\Scripts\UIManagerScript.cs" />
     <Compile Include="Assets\Scripts\Utilities\SceneField.cs" />
+    <Compile Include="Assets\Tween\Demo\TweenDemo.cs" />
+    <Compile Include="Assets\Tween\Tween.cs" />
+    <None Include="Assets\Tween\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/home/alter/Unity Projects/Longcat snake/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

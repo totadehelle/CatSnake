@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 
 public class Snake : MonoBehaviour
 {
@@ -12,9 +14,12 @@ public class Snake : MonoBehaviour
     public ScoreCounter counter;
     
     
+    
     // Current Movement Direction
-    // (by default it moves to the right)
-    Vector2 dir = new Vector2(16,0);
+    // (by default it moves to the bottom)
+    [SerializeField]
+    private float speed = 80f;
+    Vector2 dir = Vector2.down;
     //Vector3 dir2 = new Vector3(32,0, 0);
 
     
@@ -28,15 +33,15 @@ public class Snake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dir.y = dir.y * (-speed);
+        
         alive = true;
-        //var w = GetComponent<SpriteRenderer>().sprite.rect.width/transform.localScale.x;
-        //Debug.Log(w);
         
         tail.Add(tailFirst.transform);
         end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
         
         // Move the Snake every 300ms
-        InvokeRepeating("Move", 0.3f, 0.3f);
+        //InvokeRepeating("Move", 0.3f, 0.3f);
     }
 
     // Update is called once per frame
@@ -44,23 +49,31 @@ public class Snake : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            dir = Vector2.Perpendicular(dir);
+            //dir = Vector2.Perpendicular(dir);
+            transform.Rotate(0,0f,90f);
+
+            //transform.Rotate(dir * Time.deltaTime * 50);
         }
         else if (Input.GetKeyDown(KeyCode.D))
         {
-            dir = -Vector2.Perpendicular(dir);
+            //dir = -Vector2.Perpendicular(dir);
+            transform.Rotate(0,0f,-90f);
+
+            //transform.Rotate(dir * Time.deltaTime * 50);
         }
+        
+        Move();
     }
     
-    void Move() {
+    void Move()
+    {
+        
         // Save current position (gap will be here)
         Vector2 v = transform.position;
 
         // Move head into new direction (now there is a gap)
-        transform.Translate(dir);
-        //var newPos = transform.position + Vector3.up*16;
-        //transform.position = newPos;
-        //return;    
+        transform.Translate(dir * Time.deltaTime);
+       
         // Ate something? Then insert new Element into gap
         if (ate) {
             // Load Prefab into the world
@@ -75,14 +88,21 @@ public class Snake : MonoBehaviour
             ate = false;
         }
         // Do we have a Tail?
-        else if (tail.Count > 0) {
+        else if (tail.Count > 0)
+        {
+            tail[0] = transform;
+            for (int i = tail.Count; i > 0; i--)
+            {
+                tail[i] = tail[i - 1];
+            }
             
             // Move last Tail Element to where the Head was
-            tail.Last().position = v;
+            //tail.Last().position = v;
+            //tail.Last().transform.rotation = transform.rotation;
 
             // Add to front of list, remove from the back
-            tail.Insert(0, tail.Last());
-            tail.RemoveAt(tail.Count-1);
+            //tail.Insert(0, tail.Last());
+            //tail.RemoveAt(tail.Count-1);
 
             end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
         }
