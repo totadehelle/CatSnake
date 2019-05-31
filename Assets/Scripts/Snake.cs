@@ -3,137 +3,173 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 using UnityEditor;
+using UnityEngine.Serialization;
 
 public class Snake : MonoBehaviour
 {
+    public class RotationTimer
+    {
+        public int _element_index;
+        public float _timer;
+        public Quaternion _rotation;
+
+        public RotationTimer(float time, Quaternion rotation)
+        {
+            _element_index = FirstTailPart;
+            _timer = time;
+            _rotation = rotation;
+        }
+    }
+    
     // Tail Prefab
     public GameObject tailPrefab;
     public GameObject tailFirst;
-    public GameObject end;
+    public GameObject tailSecond;
+    //public GameObject end;
     public ScoreCounter counter;
-    
-    
-    
-    // Current Movement Direction
-    // (by default it moves to the bottom)
-    [SerializeField]
-    private float speed = 80f;
-    Vector2 dir = Vector2.down;
-    //Vector3 dir2 = new Vector3(32,0, 0);
 
+    private Transform headTransform;
+
+    //private int startBodySize = 4;
     
-    // Keep Track of Tail
-    List<Transform> tail = new List<Transform>();
+    [SerializeField]
+    private const float Speed = 80f;
+    private const int FirstTailPart = 1;
+    public float MaxTimeTillRotation;
+    
+
+    private float _distanceBetweenParts;
+
+    List<Transform> Tail = new List<Transform>();
+    List<RotationTimer> Timers = new List<RotationTimer>();
+    
+    private Transform currentTailPart;
+    private Transform previousTailPart;
+    
+    Vector2 dir = Vector2.down;
 
     bool ate = false;
-    
     public bool alive;
     
     // Start is called before the first frame update
     void Start()
     {
-        dir.y = dir.y * (-speed);
-        
+        Tail.Add(gameObject.transform);
+        Tail.Add(tailFirst.transform);
+        Tail.Add(tailSecond.transform);
+
         alive = true;
+        headTransform = transform;
+
+        _distanceBetweenParts = tailPrefab.GetComponent<SpriteRenderer>().bounds.size.y;
         
-        tail.Add(tailFirst.transform);
-        end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
-        
-        // Move the Snake every 300ms
-        //InvokeRepeating("Move", 0.3f, 0.3f);
+
+        MaxTimeTillRotation = _distanceBetweenParts / Speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            //dir = Vector2.Perpendicular(dir);
-            transform.Rotate(0,0f,90f);
-
-            //transform.Rotate(dir * Time.deltaTime * 50);
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            //dir = -Vector2.Perpendicular(dir);
-            transform.Rotate(0,0f,-90f);
-
-            //transform.Rotate(dir * Time.deltaTime * 50);
-        }
-        
         Move();
     }
+
+
+    /*void AddBodyPart()
+    {
+        Transform newBody = (Instantiate(tailPrefab, Tail[Tail.Count - 1].position + Vector3.up*30,
+            Tail[Tail.Count - 1].rotation) as GameObject).transform;
+        newBody.SetParent(transform.parent);
+        Tail.Add(newBody);
+    }*/
+    
+    
     
     void Move()
     {
-        
-        // Save current position (gap will be here)
-        Vector2 v = transform.position;
-
-        // Move head into new direction (now there is a gap)
-        transform.Translate(dir * Time.deltaTime);
-       
-        // Ate something? Then insert new Element into gap
-        if (ate) {
-            // Load Prefab into the world
-            GameObject g =Instantiate(tailPrefab,
-                v,
-                Quaternion.identity);
-
-            // Keep track of it in our tail list
-            tail.Insert(0, g.transform);
-
-            // Reset the flag
-            ate = false;
-        }
-        // Do we have a Tail?
-        else if (tail.Count > 0)
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            tail[0] = transform;
-            for (int i = tail.Count; i > 0; i--)
+            headTransform.Rotate(0, 0f, 90f);
+            Timers.Add(new RotationTimer(MaxTimeTillRotation, headTransform.rotation));
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            headTransform.Rotate(0, 0f, -90f);
+            Timers.Add(new RotationTimer(MaxTimeTillRotation, headTransform.rotation));
+        }
+
+
+        foreach (var tailPart in Tail)
+        {
+            tailPart.Translate(Vector2.down * Speed * Time.deltaTime);
+        }
+        
+        
+        if (Tail.Any())
+        {
+            RotateTailParts(Time.deltaTime);
+        }
+    }
+
+
+    private void RotateTailParts(float delta)
+    {
+        for (var i = 0; i < Timers.Count;)
+        {
+            var rotationTimer = Timers[i];
+            if (rotationTimer._element_index == Tail.Count)
             {
-                tail[i] = tail[i - 1];
+                Timers.Remove(rotationTimer);
+                continue;
             }
-            
-            // Move last Tail Element to where the Head was
-            //tail.Last().position = v;
-            //tail.Last().transform.rotation = transform.rotation;
+            else
+            {
+                i++;
+            }
 
-            // Add to front of list, remove from the back
-            //tail.Insert(0, tail.Last());
-            //tail.RemoveAt(tail.Count-1);
-
-            end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
+            rotationTimer._timer -= delta;
+            if (rotationTimer._timer<0)
+            {
+                
+                
+                // Tail[rotationTimer._element_index].Translate(Vector2.up * Speed * rotationTimer._timer);
+                Tail[rotationTimer._element_index].rotation = rotationTimer._rotation;
+                rotationTimer._element_index++;
+                rotationTimer._timer = MaxTimeTillRotation;
+                
+            }
         }
     }
     
+    //Rewrite in accordance with new move algorithm
     void OnTriggerEnter2D(Collider2D coll) {
+        
         // Food?
-            if(coll.gameObject.CompareTag(EnumsSet.Tags.Food.ToString())){
+        if(coll.gameObject.CompareTag(EnumsSet.Tags.Food.ToString())){
             // Get longer in next Move call
             ate = true;
             // Remove the Food
             Destroy(coll.gameObject);
         }
-        else if (coll.gameObject.CompareTag(EnumsSet.Tags.Bonus.ToString()) && tail.Count >=5)
+        else if (coll.gameObject.CompareTag(EnumsSet.Tags.Bonus.ToString()) && Tail.Count >=5)
+        {
+            //Shortening the snake by 20%
+            int tailLenght = Tail.Count;
+            int lastSection = tailLenght / 5;
+                
+            for (int i = tailLenght-1; Tail.Count > tailLenght - lastSection; i--)
             {
-                //Shortening the snake by 20%
-                int tailLenght = tail.Count;
-                int lastSection = tailLenght / 5;
-                
-                for (int i = tailLenght-1; tail.Count > tailLenght - lastSection; i--)
-                {
-                    Destroy(tail[i].gameObject);
-                    tail.RemoveAt(i);
-                }
-                
-                // Remove the Food
-                Destroy(coll.gameObject);
-                end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
+                Destroy(Tail[i].gameObject);
+                Tail.RemoveAt(i);
             }
+                
+            // Remove the Food
+            Destroy(coll.gameObject);
+            //    end.transform.position = new Vector3(tail.Last().position.x, tail.Last().position.y, -0.01f);
+        }
             
-            // Collided with Tail, Border or Bad Food
+        // Collided with Tail, Border or Bad Food
         else {
             //Pauses gameplay
             alive = false;
@@ -142,6 +178,7 @@ public class Snake : MonoBehaviour
         }
     }
 
+    
     void SaveResults(ScoreCounter counter)
     {
         if (counter.score > StatisticsControl.Instance.SavedStats.BestScore)
